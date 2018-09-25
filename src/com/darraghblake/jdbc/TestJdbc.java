@@ -3,6 +3,8 @@ package com.darraghblake.jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+
 public class TestJdbc {
 
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class TestJdbc {
 			exc.printStackTrace();
 		}
 		
-
+		// testing secondary branch
 	}
 
 }
